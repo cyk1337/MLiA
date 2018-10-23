@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 
-#-*- encoding: utf-8 
+# -*- encoding: utf-8
 
 '''
                       ______   ___  __
@@ -21,14 +21,22 @@
 
 @desc：       
                
-'''              
+'''
+
+"""
+K Nearest Neighbor
+不需要训练
+"""
+
 import numpy as np
 import operator
 
+
 def createDataset():
-    group = np.array([[1.0,1.1],[1.0,1.0],[0,0],[0,0.1]])
+    group = np.array([[1.0, 1.1], [1.0, 1.0], [0, 0], [0, 0.1]])
     labels = ['A', 'A', 'B', 'B']
     return group, labels
+
 
 def classify0(inX, dataSet, labels, k):
     dataSetSize = dataSet.shape[0]
@@ -38,11 +46,12 @@ def classify0(inX, dataSet, labels, k):
     classCount = {}
     for i in range(k):
         voteIlabel = labels[sortedDistIndices[i]]
-        classCount[voteIlabel] = classCount.get(voteIlabel,0) + 1
+        classCount[voteIlabel] = classCount.get(voteIlabel, 0) + 1
     sortedClassCnt = sorted(classCount.items(), key=operator.itemgetter(1), reverse=True)
     return sortedClassCnt[0][0]
 
+
 if __name__ == '__main__':
     group, labels = createDataset()
-    res = classify0([0,0], group, labels, k=3)
+    res = classify0([0, 0], group, labels, k=3)
     print(res)
