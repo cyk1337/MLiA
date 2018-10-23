@@ -23,7 +23,9 @@
                
 '''
 """
-Decision Tree
+Decision Tree: ID3 (information gain) 分类
+
+ID3 无法直接处理数值型数据，尽管可以通过量化的方法将数值型数据转化为标称型数据。
 """
 import math
 
