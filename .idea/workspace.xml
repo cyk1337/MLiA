@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c4b2c754-f100-43dd-a519-3e76d4ea30f5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/MySolution/Ch3_Tree.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MySolution/treePlotter.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MySolution/Ch4_NBC.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MySolution/treePlotter.py" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,7 +13,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/MLiA$Ch3_Tree.coverage" NAME="Ch3_Tree Coverage Results" MODIFIED="1540296185737" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MySolution" />
+    <SUITE FILE_PATH="coverage/MLiA$Ch3_Tree.coverage" NAME="Ch3_Tree Coverage Results" MODIFIED="1540296448211" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MySolution" />
     <SUITE FILE_PATH="coverage/MLiA$Ch2_KNN.coverage" NAME="Ch2_KNN Coverage Results" MODIFIED="1539077119532" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MySolution" />
   </component>
   <component name="FUSProjectUsageTrigger">
@@ -28,29 +28,29 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="ipynb" value="1" />
-          <entry key="py" value="5" />
+          <entry key="ipynb" value="2" />
+          <entry key="py" value="6" />
           <entry key="txt" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="IPNB" value="1" />
+          <entry key="IPNB" value="2" />
           <entry key="PLAIN_TEXT" value="2" />
-          <entry key="Python" value="5" />
+          <entry key="Python" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="Ch3_Tree" value="92" />
-          <entry key="dummy" value="1" />
-          <entry key="py" value="3817" />
+          <entry key="Ch3_Tree" value="107" />
+          <entry key="dummy" value="2" />
+          <entry key="py" value="5320" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="1" />
-          <entry key="Python" value="3909" />
+          <entry key="PLAIN_TEXT" value="2" />
+          <entry key="Python" value="5427" />
         </counts>
       </usages-collector>
     </session>
@@ -66,44 +66,16 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MySolution/Ch2_KNN.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="460">
-              <caret line="34" column="44" selection-start-line="34" selection-start-column="14" selection-end-line="34" selection-end-column="44" />
-              <folding>
-                <element signature="e#510#528#0" expanded="true" />
-                <marker date="1539077014317" expanded="true" signature="566:571" ph="..." />
-                <marker date="1539077014317" expanded="true" signature="724:729" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/MySolution/Ch3_Tree.py">
+        <entry file="file://$PROJECT_DIR$/MySolution/Ch4_NBC.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="333">
-              <caret line="153" column="23" selection-start-line="153" selection-start-column="17" selection-end-line="153" selection-end-column="23" />
+            <state relative-caret-position="44">
+              <caret line="72" column="11" selection-start-line="72" selection-start-column="11" selection-end-line="72" selection-end-column="11" />
               <folding>
-                <marker date="1540296111029" expanded="true" signature="564:569" ph="..." />
-                <marker date="1540296111029" expanded="true" signature="1023:1028" ph="..." />
-                <marker date="1540296111029" expanded="true" signature="1304:3863" ph="..." />
-                <marker date="1540296111029" expanded="true" signature="3439:3863" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MySolution/treePlotter.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="263">
-              <caret line="25" column="31" lean-forward="true" selection-start-line="25" selection-start-column="31" selection-end-line="25" selection-end-column="31" />
-              <folding>
-                <marker date="1540295617666" expanded="true" signature="719:724" ph="..." />
-                <marker date="1540295617666" expanded="true" signature="719:935" ph="..." />
-                <marker date="1540295617666" expanded="true" signature="952:957" ph="..." />
+                <marker date="1540299087535" expanded="true" signature="643:1147" ph="..." />
+                <marker date="1540299087535" expanded="true" signature="1228:1233" ph="..." />
+                <marker date="1540299087535" expanded="true" signature="1452:1457" ph="..." />
+                <marker date="1540299087535" expanded="true" signature="1790:2386" ph="..." />
               </folding>
             </state>
           </provider>
@@ -125,9 +97,11 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/MySolution/Ch2 KNN.py" />
-        <option value="$PROJECT_DIR$/MySolution/Ch2_KNN.py" />
         <option value="$PROJECT_DIR$/MySolution/treePlotter.py" />
         <option value="$PROJECT_DIR$/MySolution/Ch3_Tree.py" />
+        <option value="$PROJECT_DIR$/MySolution/Ch2_KNN.py" />
+        <option value="$PROJECT_DIR$/MySolution/Ch4_NB.py" />
+        <option value="$PROJECT_DIR$/MySolution/Ch4_NBC.py" />
       </list>
     </option>
   </component>
@@ -196,7 +170,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Ch3_Tree">
+  <component name="RunManager" selected="Python.Ch4_NBC">
     <configuration name="Ch2_KNN" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="MLiA" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -230,6 +204,25 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/MySolution/Ch3_Tree.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Ch4_NBC" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="MLiA" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/MySolution" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/MySolution/Ch4_NBC.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -283,9 +276,11 @@
       <item itemvalue="Python.Ch2_KNN" />
       <item itemvalue="Python.Ch3_Tree" />
       <item itemvalue="Python.treePlotter" />
+      <item itemvalue="Python.Ch4_NBC" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Ch4_NBC" />
         <item itemvalue="Python.Ch3_Tree" />
         <item itemvalue="Python.treePlotter" />
         <item itemvalue="Python.Ch2_KNN" />
@@ -307,6 +302,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23962805" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -314,7 +310,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32961586" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.39900866" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39900866" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -323,7 +319,7 @@
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.31226766" />
-      <window_info anchor="bottom" id="Python Console" order="12" weight="0.32961586" />
+      <window_info active="true" anchor="bottom" id="Python Console" order="12" visible="true" weight="0.32961586" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -344,29 +340,24 @@
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/MySolution/Ch2_KNN.py</url>
-          <line>39</line>
+          <line>47</line>
           <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/MySolution/Ch3_Tree.py</url>
-          <line>153</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/MySolution/Ch3_Tree.py</url>
-          <line>131</line>
-          <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
-    <watches-manager>
-      <configuration name="PythonConfigurationType">
-        <watch expression="myTree.keys()[0]" language="Python" />
-      </configuration>
-    </watches-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="watch">
+      <expression>
+        <expression-string>myTree.keys()[0]</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>myTree.keys()</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>np.tile(inX, (dataSetSize, 1))</expression-string>
         <language-id>Python</language-id>
@@ -388,37 +379,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Classfication-Logistic Regression.ipynb">
-      <provider selected="true" editor-type-id="ipnb-editor">
-        <state>
-          <selected id="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MySolution/Ch2_KNN.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="34" column="44" selection-start-line="34" selection-start-column="14" selection-end-line="34" selection-end-column="44" />
-          <folding>
-            <element signature="e#510#528#0" expanded="true" />
-            <marker date="1539077014317" expanded="true" signature="566:571" ph="..." />
-            <marker date="1539077014317" expanded="true" signature="724:729" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MySolution/treePlotter.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="263">
-          <caret line="25" column="31" lean-forward="true" selection-start-line="25" selection-start-column="31" selection-end-line="25" selection-end-column="31" />
-          <folding>
-            <marker date="1540295617666" expanded="true" signature="719:724" ph="..." />
-            <marker date="1540295617666" expanded="true" signature="719:935" ph="..." />
-            <marker date="1540295617666" expanded="true" signature="952:957" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../../ENV/anaconda3/envs/mlp/lib/python3.6/codecs.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="326">
@@ -426,15 +386,54 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/MySolution/treePlotter.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="25" column="31" lean-forward="true" selection-start-line="25" selection-start-column="31" selection-end-line="25" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MySolution/Ch2_KNN.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="27" column="5" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
+          <folding>
+            <element signature="e#510#528#0" expanded="true" />
+            <marker date="1540297303563" expanded="true" signature="588:593" ph="..." />
+            <marker date="1540297303563" expanded="true" signature="754:759" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/MySolution/Ch3_Tree.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="333">
-          <caret line="153" column="23" selection-start-line="153" selection-start-column="17" selection-end-line="153" selection-end-column="23" />
+        <state relative-caret-position="897">
+          <caret line="114" column="31" selection-start-line="114" selection-start-column="31" selection-end-line="114" selection-end-column="31" />
           <folding>
-            <marker date="1540296111029" expanded="true" signature="564:569" ph="..." />
-            <marker date="1540296111029" expanded="true" signature="1023:1028" ph="..." />
-            <marker date="1540296111029" expanded="true" signature="1304:3863" ph="..." />
-            <marker date="1540296111029" expanded="true" signature="3439:3863" ph="..." />
+            <marker date="1540296962732" expanded="true" signature="635:640" ph="..." />
+            <marker date="1540296962732" expanded="true" signature="1094:1099" ph="..." />
+            <marker date="1540296962732" expanded="true" signature="1375:4037" ph="..." />
+            <marker date="1540296962732" expanded="true" signature="3604:4037" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Classfication-Logistic Regression.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MySolution/Ch4_NBC.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="72" column="11" selection-start-line="72" selection-start-column="11" selection-end-line="72" selection-end-column="11" />
+          <folding>
+            <marker date="1540299087535" expanded="true" signature="643:1147" ph="..." />
+            <marker date="1540299087535" expanded="true" signature="1228:1233" ph="..." />
+            <marker date="1540299087535" expanded="true" signature="1452:1457" ph="..." />
+            <marker date="1540299087535" expanded="true" signature="1790:2386" ph="..." />
           </folding>
         </state>
       </provider>
