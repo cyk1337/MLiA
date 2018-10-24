@@ -28,7 +28,7 @@ import numpy as np
 def loadDataSet():
     dataMat = []
     labelMat = []
-    with open(file='data/testSet.txt') as f:
+    with open(file='data/Ch05/testSet.txt') as f:
         for line in f.readlines():
             lineArr = line.strip().split()
             # 第一个值为 1.0 ，dot(X, W^T)  第一列1 对应 bias （MLPR内容）
@@ -55,9 +55,9 @@ def gradAscent(dataMatIn, classLabels):
     maxCycles = 500
     weights = np.ones((n, 1))
     for k in range(maxCycles):
-        # np.mat * 为矩阵乘法
+        # np.mat * 为矩阵乘法 , vector
         h = sigmoid(dataMatrix * weights)
-        error = labelMat - h
+        error = labelMat - h  # vector
         weights = weights + alpha * dataMatrix.T * error
     return weights
 
@@ -72,8 +72,9 @@ def stocGradAscent0(dataMatrix, classLabels):
     alpha = .01
     weights = np.ones(n)
     for i in range(m):
-        h = sigmoid(sum(dataMatrix[i] * weights))
-        error = classLabels[i] - h
+        # scala
+        h = sigmoid(sum(dataMatrix[i] * weights))  # 只取一个数据点
+        error = classLabels[i] - h  # scala
         weights = weights + alpha * error * dataMatrix[i]
     return weights
 
@@ -88,11 +89,12 @@ def stocGradAscent1(dataMatrix, classLabels, numIter=150):
         dataIndex = list(range(m))
         for i in range(m):
             # alpha每次调整
-            alpha = 4 / (1.0 + j + i) + .01
+            alpha = 4 / (1.0 + j + i) + .01  # 动态改变学习率
             # 随机选取样本更新
             randIndex = int(random.uniform(0, len(dataIndex)))
             h = sigmoid(sum(dataMatrix[randIndex] * weights))
-            error = classLabels[randIndex] - h
+            error = classLabels[randIndex] - h  # scala
+            # w = w+\alpha \Sigma_i^m (y_i- h(x_i) X_j^{(i)}
             weights = weights + alpha * error * dataMatrix[randIndex]
             del (dataIndex[randIndex])
     return weights
