@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c4b2c754-f100-43dd-a519-3e76d4ea30f5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/MySolution/Ch6_SVM.py" beforeDir="false" afterPath="$PROJECT_DIR$/MySolution/Ch6_SVM.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MySolution/Ch7_AdaBoost.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,6 +14,8 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/MLiA$Ch3_Tree.coverage" NAME="Ch3_Tree Coverage Results" MODIFIED="1540296448211" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MySolution" />
     <SUITE FILE_PATH="coverage/MLiA$Ch2_KNN.coverage" NAME="Ch2_KNN Coverage Results" MODIFIED="1539077119532" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MySolution" />
+    <SUITE FILE_PATH="coverage/MLiA$pytest_for_Ch6_SVM_kernel_testRbf.coverage" NAME="pytest for Ch6_SVM_kernel.testRbf Coverage Results" MODIFIED="1540385667337" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MySolution" />
+    <SUITE FILE_PATH="coverage/MLiA$pytest_in_Ch6_SVM_kernel_py.coverage" NAME="pytest in Ch6_SVM_kernel.py Coverage Results" MODIFIED="1540385547028" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MySolution" />
     <SUITE FILE_PATH="coverage/MLiA$Ch5_LR.coverage" NAME="Ch5_LR Coverage Results" MODIFIED="1540369239776" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MySolution" />
   </component>
   <component name="FUSProjectUsageTrigger">
@@ -29,7 +32,7 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="ipynb" value="2" />
-          <entry key="py" value="15" />
+          <entry key="py" value="17" />
           <entry key="txt" value="5" />
         </counts>
       </usages-collector>
@@ -37,43 +40,64 @@
         <counts>
           <entry key="IPNB" value="2" />
           <entry key="PLAIN_TEXT" value="5" />
-          <entry key="Python" value="15" />
+          <entry key="Python" value="17" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="Ch3_Tree" value="107" />
           <entry key="Ch5_LR" value="2" />
-          <entry key="Ch6_SVM" value="56" />
+          <entry key="Ch6_SVM" value="67" />
           <entry key="Python Console" value="96" />
-          <entry key="dummy" value="2" />
-          <entry key="py" value="12984" />
+          <entry key="dummy" value="6" />
+          <entry key="py" value="13687" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="2" />
-          <entry key="Python" value="13245" />
+          <entry key="PLAIN_TEXT" value="6" />
+          <entry key="Python" value="13959" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MySolution/Ch6_SVM.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="263">
-              <caret line="283" column="66" lean-forward="true" selection-start-line="283" selection-start-column="66" selection-end-line="283" selection-end-column="66" />
+            <state relative-caret-position="455">
+              <caret line="316" column="16" selection-start-line="316" selection-start-column="16" selection-end-line="316" selection-end-column="16" />
               <folding>
                 <element signature="e#496#509#0" expanded="true" />
-                <marker date="1540385053640" expanded="true" signature="557:562" ph="..." />
-                <marker date="1540385053640" expanded="true" signature="908:913" ph="..." />
-                <marker date="1540385053640" expanded="true" signature="1084:4038" ph="..." />
-                <marker date="1540385053640" expanded="true" signature="5227:7056" ph="..." />
-                <marker date="1540385053640" expanded="true" signature="7137:8088" ph="..." />
-                <marker date="1540385053640" expanded="true" signature="8362:9358" ph="..." />
-                <marker date="1540385053640" expanded="true" signature="8497:9358" ph="..." />
+                <marker date="1540385304405" expanded="true" signature="557:562" ph="..." />
+                <marker date="1540385304405" expanded="true" signature="908:913" ph="..." />
+                <marker date="1540385304405" expanded="true" signature="1084:4038" ph="..." />
+                <marker date="1540385304405" expanded="true" signature="5227:7056" ph="..." />
+                <marker date="1540385304405" expanded="true" signature="7137:8088" ph="..." />
+                <marker date="1540385304405" expanded="true" signature="8362:11138" ph="..." />
+                <marker date="1540385304405" expanded="true" signature="8497:11138" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MySolution/Ch6_SVM_kernel.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="298">
+              <caret line="311" column="33" selection-start-line="311" selection-start-column="33" selection-end-line="311" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/MySolution/Ch7_AdaBoost.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="478">
+              <caret line="55" column="12" selection-start-line="55" selection-start-column="12" selection-end-line="55" selection-end-column="12" />
+              <folding>
+                <marker date="1540386892275" expanded="true" signature="1164:1169" ph="..." />
               </folding>
             </state>
           </provider>
@@ -111,6 +135,8 @@
         <option value="$PROJECT_DIR$/MySolution/Ch4_NBC.py" />
         <option value="$PROJECT_DIR$/MySolution/Ch5_LR.py" />
         <option value="$PROJECT_DIR$/MySolution/Ch6_SVM.py" />
+        <option value="$PROJECT_DIR$/MySolution/Ch6_SVM_kernel.py" />
+        <option value="$PROJECT_DIR$/MySolution/Ch7_AdaBoost.py" />
       </list>
     </option>
   </component>
@@ -160,13 +186,6 @@
               <item name="MySolution" type="462c0819:PsiDirectoryNode" />
               <item name="data" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="MLiA" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MLiA" type="462c0819:PsiDirectoryNode" />
-              <item name="MySolution" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-              <item name="Ch06" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -185,6 +204,11 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="fileTemplates" />
   </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/MySolution" />
+    </key>
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -197,29 +221,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Ch6_SVM">
-    <configuration name="Ch3_Tree" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="MLiA" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/MySolution" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/MySolution/Ch3_Tree.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="true" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python tests.pytest for Ch6_SVM_kernel.testRbf">
     <configuration name="Ch4_NBC" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="MLiA" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -302,42 +304,52 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="treePlotter" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="pytest for Ch6_SVM_kernel.testRbf" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="MLiA" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/MySolution" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/MySolution/treePlotter.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="true" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;Ch6_SVM_kernel.testRbf&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest in Ch6_SVM_kernel.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="MLiA" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/MySolution" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/MySolution/Ch6_SVM_kernel.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.Ch3_Tree" />
-      <item itemvalue="Python.treePlotter" />
       <item itemvalue="Python.Ch4_NBC" />
       <item itemvalue="Python.Ch5_LR" />
       <item itemvalue="Python.Ch6_SVM" />
+      <item itemvalue="Python tests.pytest in Ch6_SVM_kernel.py" />
+      <item itemvalue="Python tests.pytest for Ch6_SVM_kernel.testRbf" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.pytest for Ch6_SVM_kernel.testRbf" />
+        <item itemvalue="Python tests.pytest in Ch6_SVM_kernel.py" />
         <item itemvalue="Python.Ch6_SVM" />
         <item itemvalue="Python.Ch5_LR" />
         <item itemvalue="Python.Ch4_NBC" />
-        <item itemvalue="Python.Ch3_Tree" />
-        <item itemvalue="Python.treePlotter" />
       </list>
     </recent_temporary>
   </component>
@@ -354,11 +366,34 @@
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="pytest_in_Ch6_SVM_kernel_py - 2018.10.24 at 20h 51m 25s.xml">
+      <configuration name="pytest in Ch6_SVM_kernel.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_Ch6_SVM_kernel_py - 2018.10.24 at 20h 51m 39s.xml">
+      <configuration name="pytest in Ch6_SVM_kernel.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_Ch6_SVM_kernel_py - 2018.10.24 at 20h 52m 27s.xml">
+      <configuration name="pytest in Ch6_SVM_kernel.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_Ch6_SVM_kernel_testRbf - 2018.10.24 at 20h 53m 01s.xml">
+      <configuration name="pytest for Ch6_SVM_kernel.testRbf" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_Ch6_SVM_kernel_testRbf - 2018.10.24 at 20h 53m 23s.xml">
+      <configuration name="pytest for Ch6_SVM_kernel.testRbf" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_Ch6_SVM_kernel_testRbf - 2018.10.24 at 20h 53m 46s.xml">
+      <configuration name="pytest for Ch6_SVM_kernel.testRbf" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_Ch6_SVM_kernel_testRbf - 2018.10.24 at 20h 54m 28s.xml">
+      <configuration name="pytest for Ch6_SVM_kernel.testRbf" configurationId="tests" />
+    </history-entry>
+  </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24320458" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24320458" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -372,8 +407,8 @@
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.31226766" />
-      <window_info active="true" anchor="bottom" id="Python Console" order="12" visible="true" weight="0.32961586" />
+      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.31226766" />
+      <window_info anchor="bottom" id="Python Console" order="12" weight="0.32961586" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -573,17 +608,34 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/MySolution/Ch6_SVM.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="263">
-          <caret line="283" column="66" lean-forward="true" selection-start-line="283" selection-start-column="66" selection-end-line="283" selection-end-column="66" />
+        <state relative-caret-position="455">
+          <caret line="316" column="16" selection-start-line="316" selection-start-column="16" selection-end-line="316" selection-end-column="16" />
           <folding>
             <element signature="e#496#509#0" expanded="true" />
-            <marker date="1540385053640" expanded="true" signature="557:562" ph="..." />
-            <marker date="1540385053640" expanded="true" signature="908:913" ph="..." />
-            <marker date="1540385053640" expanded="true" signature="1084:4038" ph="..." />
-            <marker date="1540385053640" expanded="true" signature="5227:7056" ph="..." />
-            <marker date="1540385053640" expanded="true" signature="7137:8088" ph="..." />
-            <marker date="1540385053640" expanded="true" signature="8362:9358" ph="..." />
-            <marker date="1540385053640" expanded="true" signature="8497:9358" ph="..." />
+            <marker date="1540385304405" expanded="true" signature="557:562" ph="..." />
+            <marker date="1540385304405" expanded="true" signature="908:913" ph="..." />
+            <marker date="1540385304405" expanded="true" signature="1084:4038" ph="..." />
+            <marker date="1540385304405" expanded="true" signature="5227:7056" ph="..." />
+            <marker date="1540385304405" expanded="true" signature="7137:8088" ph="..." />
+            <marker date="1540385304405" expanded="true" signature="8362:11138" ph="..." />
+            <marker date="1540385304405" expanded="true" signature="8497:11138" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MySolution/Ch6_SVM_kernel.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="311" column="33" selection-start-line="311" selection-start-column="33" selection-end-line="311" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MySolution/Ch7_AdaBoost.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="478">
+          <caret line="55" column="12" selection-start-line="55" selection-start-column="12" selection-end-line="55" selection-end-column="12" />
+          <folding>
+            <marker date="1540386892275" expanded="true" signature="1164:1169" ph="..." />
           </folding>
         </state>
       </provider>
