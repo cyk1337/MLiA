@@ -1,12 +1,12 @@
-#!/usr/bin/env python
+# !/usr/bin/env python
 
 # -*- encoding: utf-8
 
 '''
                       ______   ___  __
                      / ___\ \ / / |/ /
-                    | |    \ V /| ' / 
-                    | |___  | | | . \ 
+                    | |    \ V /| ' /
+                    | |___  | | | . \
                      \____| |_| |_|\_\
  ==========================================================================
 @author: Yekun Chai
@@ -17,10 +17,10 @@
 
 @file: Ch7_AdaBoost.py
 
-@time: 24/10/2018 20:59 
+@time: 24/10/2018 20:59
 
-@desc：       
-               
+@desc：
+
 '''
 """
 集成方法Ensemble method， 元算法 （meta algorithm）

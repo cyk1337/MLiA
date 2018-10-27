@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c4b2c754-f100-43dd-a519-3e76d4ea30f5" name="Default Changelist" comment="" />
+    <list default="true" id="c4b2c754-f100-43dd-a519-3e76d4ea30f5" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MySolution/Ch7_AdaBoost.py" beforeDir="false" afterPath="$PROJECT_DIR$/MySolution/Ch7_AdaBoost.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,13 +95,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/MySolution/Ch7_AdaBoost.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="137" lean-forward="true" selection-start-line="137" selection-end-line="137" />
-              <folding>
-                <marker date="1540388553680" expanded="true" signature="1145:1150" ph="..." />
-                <marker date="1540388553680" expanded="true" signature="1457:1774" ph="..." />
-                <marker date="1540388553680" expanded="true" signature="3734:4201" ph="..." />
-              </folding>
+            <state relative-caret-position="-1577">
+              <caret selection-end-line="137" />
             </state>
           </provider>
         </entry>
@@ -632,13 +630,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/MySolution/Ch7_AdaBoost.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="137" lean-forward="true" selection-start-line="137" selection-end-line="137" />
-          <folding>
-            <marker date="1540388553680" expanded="true" signature="1145:1150" ph="..." />
-            <marker date="1540388553680" expanded="true" signature="1457:1774" ph="..." />
-            <marker date="1540388553680" expanded="true" signature="3734:4201" ph="..." />
-          </folding>
+        <state relative-caret-position="-1577">
+          <caret selection-end-line="137" />
         </state>
       </provider>
     </entry>
